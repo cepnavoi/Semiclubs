@@ -5,7 +5,7 @@ $light-grey: #ccc;
 $blue: #20a6fc;
 $green: #39d69c;
 
-* {
+html {
   box-sizing: border-box;
 }
 
