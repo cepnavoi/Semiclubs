@@ -11,8 +11,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background-image: url("image/elecshahbaz.png");
-    background-repeat: no-repeat;
+    background-image: url("image/elecshahbaz.png") no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
