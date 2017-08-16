@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semiclubs</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="nav" id="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <a href="#">Calendar</a>
+                <a href="#">Feed</a>
+                <a href="#">Contact Us</a>
+                <a href="#"><span>My Student Account</span></a>
+            </div>
+        </div>
+        <span id="open" class="open" onclick="openNav()">&#9776</span>
+        <script>
+            function openNav() {
+                document.getElementById("open").style.display = "none";
+                document.getElementById("nav").style.width = "100%";
+            }
+            function closeNav() {
+                document.getElementById("nav").style.width = "0";
+                document.getElementById("open").style.display = "block";
+            }
+        </script>
+    </body>
+</html>
