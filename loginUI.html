@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <Head>
@@ -8,16 +7,11 @@
     </Head>
 <body>
     <div class="container">
-        <img src="image/head.png">
+        <img src="image/user.png">
     
-    <?php
-   if (isset($_SESSION['errorMessage']){
-     echo "<span style='color:red;'>Check your input</span>";
-        }
-       ?>
     <form  action="php modules/Login.php" method="post">
         <div class="form-input">
-        <input type="text" name="username" placeholder="username" oninvalid="this.setCustomValidity('Please create   a username is incorrect')"required>
+        <input type="text" name="username" placeholder="username" oninvalid="this.setCustomValidity('username is incorrect')"required>
         </div>
         <div class="form-input">
         <input type="password" name="password" placeholder="password" oninvalid="this.setCustomValidity('password is inccorect')" required>
