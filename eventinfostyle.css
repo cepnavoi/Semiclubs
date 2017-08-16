@@ -14,7 +14,7 @@ html, body {
     background-image: url("image/elecshahbaz.jpg") no-repeat 50% 50%;
     display: table;
     top: 0;
-    background-size: contain;
+    background-size: cover;
 }
 
 .intro .inner {
