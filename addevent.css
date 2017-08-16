@@ -1,0 +1,26 @@
+body{
+margin: 0 auto;
+background-image: url("image/bg4.jpg");
+background-repeat: no-repeat;
+background-size: 100% 720px;    
+}
+
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 12px;
+    clear: left;
+}
+
+input, text area {margin-top: 12px;}
+#simpleForm {
+    background-color: rgba(52, 73, 94,0.7);
+    width: 80%;
+}
+
+#postnow {
+    margin-left: 150px;
+    padding: 15px;
+}
